@@ -1,0 +1,120 @@
+/* gallery, form titles */
+
+.list {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* for the pictures (styles from last HW no.8) */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px 0 24px 0;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery-link {
+    display: block;
+    text-decoration: none;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+    transition: transform 1s ease;
+    object-fit: cover;
+}
+
+
+/* for the form */
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    height: 296px;
+}
+
+.lable-one {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: #2e2f42;
+    width: 360px;
+    height: 72px;
+    gap: 8px;
+}
+
+.lable-two {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 112px;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2e2f42;
+    outline: none;
+    padding-left: 16px;
+    border-radius: 4px;
+}
+
+input:hover,
+textarea:hover {
+    border-color: #555;
+}
+
+button {
+    width: 95px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #4e75ff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;     
+    color: #ffffff;
+    padding: 8px 16px;
+}
+
+button:hover {
+    background-color: #6c8cff;
+}
